@@ -7,7 +7,7 @@ import dj_database_url
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '.witley.com',  # heroku url
+    'www.wetley.dev',  # heroku url
 ]
 
 DATABASES = {'default': dj_database_url.config()}
